@@ -1,0 +1,23 @@
+import { Header } from "@/components/header"
+import { Hero } from "@/components/hero"
+import { About } from "@/components/about"
+import { Services } from "@/components/services"
+import { Menu } from "@/components/menu"
+import { Testimonials } from "@/components/testimonials"
+import { Contact } from "@/components/contact"
+import { Footer } from "@/components/footer"
+
+export default function Home() {
+  return (
+    <main className="min-h-screen">
+      <Header />
+      <Hero />
+      <About />
+      <Services />
+      <Menu />
+      <Testimonials />
+      <Contact />
+      <Footer />
+    </main>
+  )
+}

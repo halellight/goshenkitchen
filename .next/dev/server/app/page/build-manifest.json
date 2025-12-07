@@ -1,0 +1,22 @@
+{
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [
+    "static/chunks/3fd41_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_c66a7144._.js",
+    "static/chunks/3fd41_next_dist_compiled_react-dom_6bc7985c._.js",
+    "static/chunks/3fd41_next_dist_compiled_react-server-dom-turbopack_1ee7cd24._.js",
+    "static/chunks/3fd41_next_dist_compiled_next-devtools_index_5366375a.js",
+    "static/chunks/3fd41_next_dist_compiled_60efe0cc._.js",
+    "static/chunks/3fd41_next_dist_client_e3eca139._.js",
+    "static/chunks/3fd41_next_dist_ad28cf1a._.js",
+    "static/chunks/3fd41_@swc_helpers_cjs_3ed7f0a2._.js",
+    "static/chunks/Downloads_goshen-kitchen_a0ff3932._.js",
+    "static/chunks/turbopack-Downloads_goshen-kitchen_d6872aae._.js"
+  ],
+  "pages": {},
+  "ampFirstPages": []
+}
