@@ -1799,6 +1799,36 @@
     }
   }
 
+  .bg-primary\/50 {
+    background-color: var(--primary);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-primary\/50 {
+      background-color: color-mix(in oklab, var(--primary) 50%, transparent);
+    }
+  }
+
+  .bg-primary\/85 {
+    background-color: var(--primary);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-primary\/85 {
+      background-color: color-mix(in oklab, var(--primary) 85%, transparent);
+    }
+  }
+
+  .bg-primary\/90 {
+    background-color: var(--primary);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-primary\/90 {
+      background-color: color-mix(in oklab, var(--primary) 90%, transparent);
+    }
+  }
+
   .bg-secondary {
     background-color: var(--secondary);
   }

@@ -45,7 +45,7 @@ export function Hero() {
           className="text-lg md:text-xl text-secondary-foreground/80 max-w-2xl mx-auto mb-8 leading-relaxed"
         >
           From intimate gatherings to grand celebrations, we craft unforgettable culinary experiences with traditional
-          Nigerian dishes made with love and authenticity.
+          and international dishes made with love and authenticity.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -57,13 +57,13 @@ export function Hero() {
             Plan Your Event
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
-          <Button
+          {/* <Button
             size="lg"
             variant="outline"
             className="border-secondary-foreground text-secondary-foreground hover:bg-secondary-foreground/10 text-base px-8 bg-transparent"
           >
             View Our Menu
-          </Button>
+          </Button> */}
         </motion.div>
       </div>
 

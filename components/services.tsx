@@ -10,28 +10,28 @@ const services = [
     title: "Weddings",
     description:
       "Make your special day unforgettable with our exquisite Nigerian wedding catering packages, from traditional ceremonies to modern receptions.",
-    image: "/elegant-nigerian-wedding-reception-food-buffet-set.jpg",
+    image: "/goshen4.jpg",
   },
   {
     icon: Building2,
     title: "Corporate Events",
     description:
       "Impress your clients and colleagues with our professional corporate catering, perfect for meetings, conferences, and company celebrations.",
-    image: "/professional-corporate-catering-nigerian-food-busi.jpg",
+    image: "/goshen1.jpg",
   },
   {
     icon: Users,
     title: "Private Parties",
     description:
       "From birthdays to anniversaries, we create personalized menus that bring warmth and flavor to your intimate gatherings.",
-    image: "/nigerian-birthday-party-catering-colorful-food-dis.jpg",
+    image: "/goshen2.jpg",
   },
   {
     icon: Cake,
     title: "Traditional Ceremonies",
     description:
       "Honor your heritage with authentic dishes for naming ceremonies, engagement parties, and other traditional Nigerian celebrations.",
-    image: "/traditional-nigerian-ceremony-food-engagement-part.jpg",
+    image: "/goshen6.jpg",
   },
 ]
 

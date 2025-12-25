@@ -33,7 +33,7 @@ export function About() {
             <div className="space-y-4">
               <ScrollReveal delay={0}>
                 <img
-                  src="/nigerian-chef-preparing-traditional-food-in-kitche.jpg"
+                  src="/goshen6.jpg"
                   alt="Chef preparing food"
                   className="w-full h-48 md:h-64 object-cover rounded-lg"
                 />
@@ -56,7 +56,7 @@ export function About() {
               </ScrollReveal>
               <ScrollReveal delay={0.3}>
                 <img
-                  src="/colorful-nigerian-egusi-soup-with-pounded-yam-trad.jpg"
+                  src="/goshen7.jpg"
                   alt="Egusi soup"
                   className="w-full h-48 md:h-64 object-cover rounded-lg"
                 />

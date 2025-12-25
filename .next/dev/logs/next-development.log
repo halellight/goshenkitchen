@@ -1,48 +1,1303 @@
-[00:00:04.159] Server  LOG     
-[00:00:04.159] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
-[00:00:04.160] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+[00:00:02.436] Server  LOG      ✓ Ready in 1821ms
+[00:00:11.289] Server  LOG      ○ Compiling / ...
+[00:00:23.137] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap
 
-[00:00:04.161] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
-[00:00:04.161] Server  LOG     
-[00:00:04.161] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
 
-[00:00:04.161] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
-[00:00:04.161] Server  LOG     
-[00:00:04.779] Server  LOG      ✓ Ready in 3.5s
-[00:00:53.857] Server  LOG      ○ Compiling / ...
-[00:01:12.668] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:13.478] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:01:13.478] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:01:13.478] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765149740428}
-[00:02:14.194] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:14.418] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:02:14.418] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:02:14.418] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765149801373}
-[00:02:14.522] Browser WARN    Image with src "/images/image.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+
+[00:00:23.138] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:00:23.139] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+next/font: warning:
+Failed to download `DM Sans` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:00:23.139] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:00:25.030] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:00:25.032] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:00:25.035] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+next/font: warning:
+Failed to download `DM Sans` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:00:25.038] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:00:25.073] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:26.228] Browser WARN    Image with src "/images/image.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:03:10.659] Server  LOG      ✓ Compiled in 106ms
-[00:03:22.357] Server  LOG      ✓ Compiled in 99ms
-[00:03:31.442] Server  LOG      ✓ Compiled in 76ms
-[00:04:03.800] Server  LOG      ✓ Compiled in 84ms
-[00:04:16.899] Server  LOG      ✓ Compiled in 63ms
-[00:04:35.595] Server  LOG      ✓ Compiled in 129ms
-[00:07:53.602] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:53.841] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:07:53.841] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:07:53.841] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765150140794}
-[00:07:53.943] Browser WARN    Image with src "/images/image.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:01:07.864] Browser LOG     [Vercel Web Analytics] Failed to load script from https://va.vercel-scripts.com/v1/script.debug.js. Please check if any ad blockers are enabled and try again.
+[00:06:08.265] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:06:08.267] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:06:08.268] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+next/font: warning:
+Failed to download `DM Sans` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:06:08.269] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:08:41.325] Server  LOG      ✓ Compiled in 259ms
+[00:09:02.237] Server  LOG      ✓ Compiled in 83ms
+[00:09:21.433] Server  LOG      ✓ Compiled in 78ms
+[00:10:10.423] Server  LOG      ✓ Compiled in 54ms
+[00:10:21.986] Server  LOG      ✓ Compiled in 78ms
+[00:10:39.370] Server  LOG      ✓ Compiled in 87ms
+[00:10:44.770] Server  LOG      ✓ Compiled in 79ms
+[00:11:21.729] Server  LOG      ✓ Compiled in 79ms
+[00:11:27.314] Server  LOG      ✓ Compiled in 70ms
+[00:11:39.683] Server  LOG      ✓ Compiled in 72ms
+[00:11:48.376] Server  LOG      ✓ Compiled in 66ms
+[00:12:06.310] Server  LOG      ✓ Compiled in 66ms
+[00:12:14.576] Server  LOG      ✓ Compiled in 74ms
+[00:17:03.118] Server  LOG      ✓ Compiled in 103ms
+[00:17:07.856] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:17:07.858] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:17:07.859] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+next/font: warning:
+Failed to download `DM Sans` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:17:07.859] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:17:09.406] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:17:09.406] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:17:09.407] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+next/font: warning:
+Failed to download `DM Sans` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:17:09.407] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:17:09.445] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:11.140] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <SegmentViewNode type="page" pagePath="/Downloads...">
+      <SegmentTrieNode>
+      <Home>
+        <main className="min-h-screen">
+          <Header>
+          <Hero>
+          <About>
+          <Services>
+          <Menu>
+          <Testimonials>
+          <Contact>
+            <section id="contact" className="py-20 md:p...">
+              <div className="max-w-7xl ...">
+                <div>
+                <div className="grid lg:gr...">
+                  <ScrollReveal direction="left">
+                    <motion.div ref={{current:null}} initial={{opacity:0,x:40,y:0}} animate={{opacity:0,x:40,y:0}} ...>
+                      <div className="" style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                        <div className="bg-card p-...">
+                          <h3>
+                          <form onSubmit={function handleSubmit} className="space-y-6">
+                            <div className="grid sm:gr...">
+                              <div className="space-y-2">
+                                <Label>
+                                <Input id="name" placeholder="Your name" value="" onChange={function onChange} ...>
+                                  <input
+                                    type={undefined}
+                                    data-slot="input"
+                                    className="file:text-foreground placeholder:text-muted-foreground selection:bg-pri..."
+                                    id="name"
+                                    placeholder="Your name"
+                                    value=""
+                                    onChange={function onChange}
+                                    required={true}
+-                                   fdprocessedid="uloums"
+                                  >
+                              <div className="space-y-2">
+                                <Label>
+                                <Input id="email" type="email" placeholder="your@email..." value="" ...>
+                                  <input
+                                    type="email"
+                                    data-slot="input"
+                                    className="file:text-foreground placeholder:text-muted-foreground selection:bg-pri..."
+                                    id="email"
+                                    placeholder="your@email.com"
+                                    value=""
+                                    onChange={function onChange}
+                                    required={true}
+-                                   fdprocessedid="i1zlwf"
+                                  >
+                            <div className="grid sm:gr...">
+                              <div className="space-y-2">
+                                <Label>
+                                <Input id="phone" placeholder="+234 xxx x..." value="" onChange={function onChange}>
+                                  <input
+                                    type={undefined}
+                                    data-slot="input"
+                                    className="file:text-foreground placeholder:text-muted-foreground selection:bg-pri..."
+                                    id="phone"
+                                    placeholder="+234 xxx xxx xxxx"
+                                    value=""
+                                    onChange={function onChange}
+-                                   fdprocessedid="kj2jw"
+                                  >
+                              <div className="space-y-2">
+                                <Label>
+                                <Input id="eventType" placeholder="Wedding, C..." value="" onChange={function onChange}>
+                                  <input
+                                    type={undefined}
+                                    data-slot="input"
+                                    className="file:text-foreground placeholder:text-muted-foreground selection:bg-pri..."
+                                    id="eventType"
+                                    placeholder="Wedding, Corporate, etc."
+                                    value=""
+                                    onChange={function onChange}
+-                                   fdprocessedid="yb4qv7"
+                                  >
+                            <div>
+                            <Button type="submit" size="lg" className="w-full bg-...">
+                              <button
+                                data-slot="button"
+                                className={"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm f..."}
+                                type="submit"
+-                               fdprocessedid="x7pauw"
+                              >
++                               Submit Inquiry
+                  ...
+          ...
+    ...
+
+[00:17:11.608] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:17:11.608] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:17:11.608] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766686966574}
+[00:17:29.324] Server  LOG      ✓ Compiled in 73ms
+[00:17:33.753] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:17:33.754] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:17:33.755] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+next/font: warning:
+Failed to download `DM Sans` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:17:33.756] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:17:34.527] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:17:34.528] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:17:34.528] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+next/font: warning:
+Failed to download `DM Sans` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:17:34.528] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:17:34.538] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:35.111] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:17:35.111] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:17:35.112] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766686990080}
+[00:18:54.616] Server  LOG      ✓ Compiled in 100ms
+[00:19:12.685] Server  LOG      ✓ Compiled in 66ms
+[00:20:57.767] Server  LOG      ✓ Compiled in 71ms
+[00:21:33.389] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:21:33.390] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:21:33.391] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+next/font: warning:
+Failed to download `DM Sans` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:21:33.392] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:21:34.893] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:21:34.894] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:21:34.895] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+next/font: warning:
+Failed to download `DM Sans` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:21:34.896] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:21:36.395] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:21:36.396] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:21:36.397] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+next/font: warning:
+Failed to download `DM Sans` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:21:36.398] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:21:40.161] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:21:40.164] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:21:40.166] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+next/font: warning:
+Failed to download `DM Sans` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:21:40.168] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:21:43.747] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:21:43.748] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:21:43.748] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+next/font: warning:
+Failed to download `DM Sans` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:21:43.750] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:30:32.267] Server  LOG      ✓ Compiled in 398ms
+[00:30:50.312] Server  LOG      ✓ Compiled in 87ms
+[00:35:49.816] Server  LOG      ✓ Compiled in 1943ms
+[00:35:49.965] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:35:49.967] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:35:49.968] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+next/font: warning:
+Failed to download `DM Sans` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:35:49.968] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:54:27.761] Server  LOG      ✓ Compiled in 727ms
+[00:57:20.463] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:57:20.468] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:57:20.470] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+next/font: warning:
+Failed to download `DM Sans` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:57:20.471] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:57:21.155] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:57:21.156] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:57:21.156] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+next/font: warning:
+Failed to download `DM Sans` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:57:21.157] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[00:58:23.500] Server  LOG      ✓ Compiled in 363ms
+[01:00:06.702] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:00:06.703] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:00:06.704] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+next/font: warning:
+Failed to download `DM Sans` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:00:06.704] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:00:31.389] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:00:31.391] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:00:31.391] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+next/font: warning:
+Failed to download `DM Sans` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:00:31.392] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:00:31.458] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:00:31.459] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:00:31.460] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+next/font: warning:
+Failed to download `DM Sans` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:00:31.461] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:00:34.755] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:00:34.755] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:00:34.756] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+next/font: warning:
+Failed to download `DM Sans` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:00:34.757] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:00:34.793] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:00:35.326] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Downloads...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="dm_sans_501f913d-module__eUsXAa__variable inter_8f1c4a24-module__nx7jFG__variab..."
+-                           data-new-gr-c-s-check-loaded="14.1267.0"
+-                           data-gr-ext-installed=""
+                          >
+                            ...
+                              <Home>
+                                <main className="min-h-screen">
+                                  <Header>
+                                  ...
+                                    <div className="flex flex-..." style={{opacity:0, ...}} ...>
+                                      <Button size="lg" className="bg-primary...">
+                                        <button
+                                          data-slot="button"
+                                          className={"inline-flex items-center justify-center gap-2 whitespace-nowrap..."}
+-                                         fdprocessedid="qagyrs"
+                                        >
+                                  <About>
+                                  <Services>
+                                  <Testimonials>
+                                  ...
+                                    <div className="bg-card p-...">
+                                      <h3>
+                                      <form onSubmit={function handleSubmit} className="space-y-6">
+                                        <div className="grid sm:gr...">
+                                          <div className="space-y-2">
+                                            <Label>
+                                            <Input id="name" placeholder="Your name" value="" ...>
+                                              <input
+                                                type={undefined}
+                                                data-slot="input"
+                                                className="file:text-foreground placeholder:text-muted-foreground sele..."
+                                                id="name"
+                                                placeholder="Your name"
+                                                value=""
+                                                onChange={function onChange}
+                                                required={true}
+-                                               fdprocessedid="tntkaf"
+                                              >
+                                          <div className="space-y-2">
+                                            <Label>
+                                            <Input id="email" type="email" placeholder="your@email..." value="" ...>
+                                              <input
+                                                type="email"
+                                                data-slot="input"
+                                                className="file:text-foreground placeholder:text-muted-foreground sele..."
+                                                id="email"
+                                                placeholder="your@email.com"
+                                                value=""
+                                                onChange={function onChange}
+                                                required={true}
+-                                               fdprocessedid="9kg019"
+                                              >
+                                        <div className="grid sm:gr...">
+                                          <div className="space-y-2">
+                                            <Label>
+                                            <Input id="phone" placeholder="+234 xxx x..." value="" ...>
+                                              <input
+                                                type={undefined}
+                                                data-slot="input"
+                                                className="file:text-foreground placeholder:text-muted-foreground sele..."
+                                                id="phone"
+                                                placeholder="+234 xxx xxx xxxx"
+                                                value=""
+                                                onChange={function onChange}
+-                                               fdprocessedid="glvp4o"
+                                              >
+                                          <div className="space-y-2">
+                                            <Label>
+                                            <Input id="eventType" placeholder="Wedding, C..." value="" ...>
+                                              <input
+                                                type={undefined}
+                                                data-slot="input"
+                                                className="file:text-foreground placeholder:text-muted-foreground sele..."
+                                                id="eventType"
+                                                placeholder="Wedding, Corporate, etc."
+                                                value=""
+                                                onChange={function onChange}
+-                                               fdprocessedid="ho8fqv"
+                                              >
+                                        <div>
+                                        <Button type="submit" size="lg" className="w-full bg-...">
+                                          <button
+                                            data-slot="button"
+                                            className={"inline-flex items-center justify-center gap-2 whitespace-nowr..."}
+                                            type="submit"
+-                                           fdprocessedid="k7zf5h"
+                                          >
++                                           Submit Inquiry
+                                  ...
+                            ...
+                  ...
+
+[01:00:35.576] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:00:35.576] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:00:35.576] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766689570532}
+[01:00:35.576] Browser WARN    Image with src "/images/image.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:08:51.796] Server  LOG      ✓ Compiled in 71ms
-[00:09:54.818] Server  LOG      ✓ Compiled in 77ms
-[00:11:31.542] Server  LOG      ✓ Compiled in 91ms
-[00:11:39.862] Server  LOG      ✓ Compiled in 72ms
-[00:12:08.870] Server  LOG      ✓ Compiled in 186ms
-[00:12:15.320] Server  LOG      ✓ Compiled in 70ms
-[00:12:24.570] Server  LOG      ✓ Compiled in 71ms
-[00:12:33.056] Server  LOG      ✓ Compiled in 80ms
-[00:12:40.818] Server  LOG      ✓ Compiled in 86ms
-[00:12:50.366] Server  LOG      ✓ Compiled in 65ms
-[00:12:59.767] Server  LOG      ✓ Compiled in 180ms
-[00:13:06.319] Server  LOG      ✓ Compiled in 257ms
-[00:13:20.710] Server  LOG      ✓ Compiled in 70ms
-[00:13:30.875] Server  LOG      ✓ Compiled in 75ms
+[01:21:57.190] Server  LOG      ✓ Compiled in 1250ms
+[01:22:05.561] Server  LOG      ✓ Compiled in 411ms
+[01:22:17.526] Server  LOG      ✓ Compiled in 361ms
+[01:22:18.451] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:22:18.454] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:22:18.486] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+next/font: warning:
+Failed to download `DM Sans` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:22:18.487] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:22:20.552] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:22:20.552] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:22:20.553] Server  WARN     ⚠ [next]/internal/font/google/dm_sans_501f913d.module.css
+next/font: warning:
+Failed to download `DM Sans` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/dm_sans_501f913d.module.css
+    [next]/internal/font/google/dm_sans_501f913d.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:22:20.553] Server  WARN     ⚠ [next]/internal/font/google/inter_8f1c4a24.module.css
+next/font: warning:
+Failed to download `Inter` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/inter_8f1c4a24.module.css
+    [next]/internal/font/google/inter_8f1c4a24.js
+    ./Downloads/goshen-kitchen/app/layout.tsx
+
+
+[01:22:20.564] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:22:23.281] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <SegmentViewNode type="page" pagePath="/Downloads...">
+      <SegmentTrieNode>
+      <Home>
+        <main className="min-h-screen">
+          <Header>
+          <Hero>
+          <About>
+          <Services>
+          <Testimonials>
+          <Contact>
+            <section id="contact" className="py-20 md:p...">
+              <div className="max-w-7xl ...">
+                <div>
+                <div className="grid lg:gr...">
+                  <ScrollReveal direction="left">
+                    <motion.div ref={{current:null}} initial={{opacity:0,x:40,y:0}} animate={{opacity:0,x:40,y:0}} ...>
+                      <div className="" style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                        <div className="bg-card p-...">
+                          <h3>
+                          <form onSubmit={function handleSubmit} className="space-y-6">
+                            <div className="grid sm:gr...">
+                              <div className="space-y-2">
+                                <Label>
+                                <Input id="name" placeholder="Your name" value="" onChange={function onChange} ...>
+                                  <input
+                                    type={undefined}
+                                    data-slot="input"
+                                    className="file:text-foreground placeholder:text-muted-foreground selection:bg-pri..."
+                                    id="name"
+                                    placeholder="Your name"
+                                    value=""
+                                    onChange={function onChange}
+                                    required={true}
+-                                   fdprocessedid="ov5ktg"
+                                  >
+                              <div className="space-y-2">
+                                <Label>
+                                <Input id="email" type="email" placeholder="your@email..." value="" ...>
+                                  <input
+                                    type="email"
+                                    data-slot="input"
+                                    className="file:text-foreground placeholder:text-muted-foreground selection:bg-pri..."
+                                    id="email"
+                                    placeholder="your@email.com"
+                                    value=""
+                                    onChange={function onChange}
+                                    required={true}
+-                                   fdprocessedid="2w40yj"
+                                  >
+                            <div className="grid sm:gr...">
+                              <div className="space-y-2">
+                                <Label>
+                                <Input id="phone" placeholder="+234 xxx x..." value="" onChange={function onChange}>
+                                  <input
+                                    type={undefined}
+                                    data-slot="input"
+                                    className="file:text-foreground placeholder:text-muted-foreground selection:bg-pri..."
+                                    id="phone"
+                                    placeholder="+234 xxx xxx xxxx"
+                                    value=""
+                                    onChange={function onChange}
+-                                   fdprocessedid="xvajvc"
+                                  >
+                              <div className="space-y-2">
+                                <Label>
+                                <Input id="eventType" placeholder="Wedding, C..." value="" onChange={function onChange}>
+                                  <input
+                                    type={undefined}
+                                    data-slot="input"
+                                    className="file:text-foreground placeholder:text-muted-foreground selection:bg-pri..."
+                                    id="eventType"
+                                    placeholder="Wedding, Corporate, etc."
+                                    value=""
+                                    onChange={function onChange}
+-                                   fdprocessedid="cxtuob"
+                                  >
+                            <div>
+                            <Button type="submit" size="lg" className="w-full bg-...">
+                              <button
+                                data-slot="button"
+                                className={"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm f..."}
+                                type="submit"
+-                               fdprocessedid="6gxxkh"
+                              >
++                               Submit Inquiry
+                  ...
+          ...
+    ...
+
+[01:22:23.282] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:22:23.282] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:22:23.282] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766690877656}
+[01:48:23.806] Browser LOG     {"email":"praiseibec@gmail.com","eventType":"","message":"bfb","name":"PRAISE IBE CHIDUMEBI","phone":"08121173432"}

@@ -14,7 +14,7 @@ interface ScrollRevealProps {
 
 export function ScrollReveal({ children, className = "", delay = 0, direction = "up" }: ScrollRevealProps) {
   const ref = useRef(null)
-  const isInView = useInView(ref, { once: false, margin: "-100px" })
+  const isInView = useInView(ref, { once: true, margin: "-100px" })
 
   const directions = {
     up: { y: 40, x: 0 },
