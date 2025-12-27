@@ -13,17 +13,17 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Location",
-    details: ["123 Victoria Island", "Lagos, Nigeria"],
+    details: ["Abuja, Nigeria"],
   },
   {
     icon: Phone,
     title: "Phone",
-    details: ["+234 801 234 5678", "+234 901 876 5432"],
+    details: ["+234 802 307 0951", "+234 701 353 5000"],
   },
   {
     icon: Mail,
     title: "Email",
-    details: ["hello@goshenkitchen.com", "events@goshenkitchen.com"],
+    details: ["bimbo_2002ng@yahoo.com"],
   },
   {
     icon: Clock,
